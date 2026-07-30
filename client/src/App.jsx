@@ -12,7 +12,7 @@ function App() {
   const Result = async () => {
     try {
       setLoading(true)
-      const res = await axios.post('http://localhost:5001/api/improve', {
+      const res = await axios.post('https://ai-text-improver-wr0f.onrender.com/api/improve', {
         text,
       })
       
